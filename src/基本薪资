@@ -1,1 +1,119 @@
-<mxfile host="app.diagrams.net" modified="2020-12-10T02:05:20.521Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="13.10.9" etag="eTLjSs6MQWXKvezcO45_" type="github"><diagram id="h9ShP3ngmmAHctDot9fw">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-10T03:10:36.816Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="sBY_ZSjDWiUolqHOnwxQ" version="13.10.9" type="github">
+  <diagram id="h9ShP3ngmmAHctDot9fw" name="Page-1">
+    <mxGraphModel dx="1426" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NCN1AZb7IPzxgdF7oWOT-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NCN1AZb7IPzxgdF7oWOT-1" target="NCN1AZb7IPzxgdF7oWOT-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NCN1AZb7IPzxgdF7oWOT-1" value="导入" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NCN1AZb7IPzxgdF7oWOT-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NCN1AZb7IPzxgdF7oWOT-4" target="NCN1AZb7IPzxgdF7oWOT-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NCN1AZb7IPzxgdF7oWOT-4" value="extractExcelData" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="190" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NCN1AZb7IPzxgdF7oWOT-6" value="record" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="110" width="210" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="NCN1AZb7IPzxgdF7oWOT-7" value="+ _id: utils.uuid() " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="NCN1AZb7IPzxgdF7oWOT-6">
+          <mxGeometry y="26" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NCN1AZb7IPzxgdF7oWOT-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="NCN1AZb7IPzxgdF7oWOT-6">
+          <mxGeometry y="52" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NCN1AZb7IPzxgdF7oWOT-9" value="+ salaryList:[{&#xa;          totalSalary: 总工资,&#xa;          basicSalary: 基本工资,&#xa;          positionSalary: 岗位工资,&#xa;          adjustTime: 调整时间,&#xa;          remark: 备注,&#xa;        }]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="NCN1AZb7IPzxgdF7oWOT-6">
+          <mxGeometry y="60" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="NCN1AZb7IPzxgdF7oWOT-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="NCN1AZb7IPzxgdF7oWOT-6" source="NCN1AZb7IPzxgdF7oWOT-9" target="NCN1AZb7IPzxgdF7oWOT-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NCN1AZb7IPzxgdF7oWOT-12" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NCN1AZb7IPzxgdF7oWOT-4" target="NCN1AZb7IPzxgdF7oWOT-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="280" as="sourcePoint" />
+            <mxPoint x="320" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NCN1AZb7IPzxgdF7oWOT-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NCN1AZb7IPzxgdF7oWOT-13" target="NCN1AZb7IPzxgdF7oWOT-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NCN1AZb7IPzxgdF7oWOT-13" value="&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 15px ; line-height: 23px&quot;&gt;&lt;font color=&quot;#330000&quot; style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;mergeListsByKey通过dd_user_id合并旧数据（后覆盖前）&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="340" width="300" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="NCN1AZb7IPzxgdF7oWOT-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NCN1AZb7IPzxgdF7oWOT-20" target="NCN1AZb7IPzxgdF7oWOT-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NCN1AZb7IPzxgdF7oWOT-20" value="userData" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="345" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NCN1AZb7IPzxgdF7oWOT-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NCN1AZb7IPzxgdF7oWOT-21" target="NCN1AZb7IPzxgdF7oWOT-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NCN1AZb7IPzxgdF7oWOT-21" value="genUserSalary通过dd_user_id合并&lt;br&gt;过滤没有username和salaryList不存在和为0的" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="505" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NCN1AZb7IPzxgdF7oWOT-25" value="genCurrSalary" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="505" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NCN1AZb7IPzxgdF7oWOT-27" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NCN1AZb7IPzxgdF7oWOT-21" target="NCN1AZb7IPzxgdF7oWOT-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="580" as="sourcePoint" />
+            <mxPoint x="680" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="record" positionSalary="" id="NCN1AZb7IPzxgdF7oWOT-28">
+          <mxCell style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+            <mxGeometry x="1060" y="505" width="160" height="242" as="geometry">
+              <mxRectangle x="1060" y="505" width="70" height="26" as="alternateBounds" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="NCN1AZb7IPzxgdF7oWOT-29" value="+ lastTotalSalary" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="NCN1AZb7IPzxgdF7oWOT-28">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NCN1AZb7IPzxgdF7oWOT-30" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="NCN1AZb7IPzxgdF7oWOT-28">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NCN1AZb7IPzxgdF7oWOT-31" value="+ totalSalary" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="NCN1AZb7IPzxgdF7oWOT-28">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NCN1AZb7IPzxgdF7oWOT-66" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="NCN1AZb7IPzxgdF7oWOT-28">
+          <mxGeometry y="90" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NCN1AZb7IPzxgdF7oWOT-68" value="+ positionSalary" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="NCN1AZb7IPzxgdF7oWOT-28">
+          <mxGeometry y="98" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NCN1AZb7IPzxgdF7oWOT-74" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="NCN1AZb7IPzxgdF7oWOT-28">
+          <mxGeometry y="128" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NCN1AZb7IPzxgdF7oWOT-70" value="+ basicSalary" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="NCN1AZb7IPzxgdF7oWOT-28">
+          <mxGeometry y="136" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NCN1AZb7IPzxgdF7oWOT-73" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="NCN1AZb7IPzxgdF7oWOT-28">
+          <mxGeometry y="166" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NCN1AZb7IPzxgdF7oWOT-71" value="+ adjustTime" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="NCN1AZb7IPzxgdF7oWOT-28">
+          <mxGeometry y="174" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NCN1AZb7IPzxgdF7oWOT-72" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="NCN1AZb7IPzxgdF7oWOT-28">
+          <mxGeometry y="204" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NCN1AZb7IPzxgdF7oWOT-69" value="+ remark" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="NCN1AZb7IPzxgdF7oWOT-28">
+          <mxGeometry y="212" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NCN1AZb7IPzxgdF7oWOT-32" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NCN1AZb7IPzxgdF7oWOT-25" target="NCN1AZb7IPzxgdF7oWOT-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="980" y="570" as="sourcePoint" />
+            <mxPoint x="1030" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NCN1AZb7IPzxgdF7oWOT-75" value="userSalary&lt;br&gt;salaryData" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="680" width="220" height="65" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
