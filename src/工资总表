@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-31T12:24:17.066Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="nI4om4LTKl6zCa1lHKvJ" version="14.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-31T12:31:24.672Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="jbCj6LgQv0eT2katM6T4" version="14.1.4" type="github">
   <diagram id="QymPkbwfqAV_IG60hfEw" name="Page-1">
     <mxGraphModel dx="1042" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -81,6 +81,9 @@
         <mxCell id="Oe97w0vUJdtPVjZFG_OA-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Oe97w0vUJdtPVjZFG_OA-38" target="Oe97w0vUJdtPVjZFG_OA-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Oe97w0vUJdtPVjZFG_OA-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Oe97w0vUJdtPVjZFG_OA-38" target="Oe97w0vUJdtPVjZFG_OA-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Oe97w0vUJdtPVjZFG_OA-38" value="&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 15px ; line-height: 23px&quot;&gt;&lt;font style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;获取全部数据&lt;br&gt;&amp;nbsp; fetchAllSalaryData&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="155" y="660" width="210" height="80" as="geometry" />
         </mxCell>
@@ -155,6 +158,18 @@
         </mxCell>
         <mxCell id="Oe97w0vUJdtPVjZFG_OA-77" value="回填数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="1060" y="790" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Oe97w0vUJdtPVjZFG_OA-86" value="" style="endArrow=classic;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.742;entryY=0.978;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Oe97w0vUJdtPVjZFG_OA-44" target="Oe97w0vUJdtPVjZFG_OA-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="890" as="sourcePoint" />
+            <mxPoint x="670" y="840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oe97w0vUJdtPVjZFG_OA-87" value="病事假计算、工资计算等" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="820" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
