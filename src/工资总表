@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-31T09:37:29.148Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="6T3_pPeOqeeD-ZaRDLdi" version="14.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-31T09:45:22.337Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="i6ptbNusHmFAx_whCG5f" version="14.1.4" type="github">
   <diagram id="QymPkbwfqAV_IG60hfEw" name="Page-1">
     <mxGraphModel dx="1042" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -68,7 +68,12 @@
           <mxGeometry x="920" y="150" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Oe97w0vUJdtPVjZFG_OA-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Oe97w0vUJdtPVjZFG_OA-37" target="Oe97w0vUJdtPVjZFG_OA-38">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="600" />
+              <mxPoint x="260" y="600" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Oe97w0vUJdtPVjZFG_OA-37" value="获取工资数据逻辑" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="200" y="540" width="120" height="60" as="geometry" />
@@ -85,8 +90,32 @@
         <mxCell id="Oe97w0vUJdtPVjZFG_OA-40" value="获取12月到现在的考勤结果" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="450" y="660" width="160" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="Oe97w0vUJdtPVjZFG_OA-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Oe97w0vUJdtPVjZFG_OA-42" target="Oe97w0vUJdtPVjZFG_OA-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Oe97w0vUJdtPVjZFG_OA-42" value="获取12月到现在的额外薪资导入项" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="710" y="660" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Oe97w0vUJdtPVjZFG_OA-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Oe97w0vUJdtPVjZFG_OA-53" target="Oe97w0vUJdtPVjZFG_OA-53">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1045" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oe97w0vUJdtPVjZFG_OA-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Oe97w0vUJdtPVjZFG_OA-44" target="Oe97w0vUJdtPVjZFG_OA-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Oe97w0vUJdtPVjZFG_OA-44" value="合并为以月为单位的薪资数据" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="987.5" y="660" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Oe97w0vUJdtPVjZFG_OA-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Oe97w0vUJdtPVjZFG_OA-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1047.5" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oe97w0vUJdtPVjZFG_OA-53" value="计算五险一金、最新薪资、岗位工资、当月调薪等" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="990" y="520" width="115" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
