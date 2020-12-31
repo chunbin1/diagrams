@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-31T12:31:24.672Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="jbCj6LgQv0eT2katM6T4" version="14.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-31T12:40:12.308Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="oVDuo6SeH4CBsRPkazR5" version="14.1.4" type="github">
   <diagram id="QymPkbwfqAV_IG60hfEw" name="Page-1">
     <mxGraphModel dx="1042" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="Oe97w0vUJdtPVjZFG_OA-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Oe97w0vUJdtPVjZFG_OA-1" target="Oe97w0vUJdtPVjZFG_OA-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Oe97w0vUJdtPVjZFG_OA-1" value="工资总表薪酬计算（含个税）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Oe97w0vUJdtPVjZFG_OA-1" value="工资总表进入逻辑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Oe97w0vUJdtPVjZFG_OA-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Oe97w0vUJdtPVjZFG_OA-6" target="Oe97w0vUJdtPVjZFG_OA-29">
@@ -49,23 +49,11 @@
             <mxPoint x="480" y="249" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Oe97w0vUJdtPVjZFG_OA-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Oe97w0vUJdtPVjZFG_OA-23" target="Oe97w0vUJdtPVjZFG_OA-33">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="Oe97w0vUJdtPVjZFG_OA-23" value="获取工资数据并补充考勤数据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="660" y="305" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Oe97w0vUJdtPVjZFG_OA-29" value="&lt;span&gt;获取用户工资&lt;/span&gt;&lt;br&gt;&lt;span&gt;fetchUserSalary&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="300" width="120" height="65" as="geometry" />
-        </mxCell>
-        <mxCell id="Oe97w0vUJdtPVjZFG_OA-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Oe97w0vUJdtPVjZFG_OA-33" target="Oe97w0vUJdtPVjZFG_OA-35">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Oe97w0vUJdtPVjZFG_OA-33" value="&lt;div style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 15px ; line-height: 23px&quot;&gt;&lt;font style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;获取全部数据&lt;br&gt;&amp;nbsp; fetchAllSalaryData&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="615" y="150" width="210" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Oe97w0vUJdtPVjZFG_OA-35" value="获取" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="920" y="150" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Oe97w0vUJdtPVjZFG_OA-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Oe97w0vUJdtPVjZFG_OA-37" target="Oe97w0vUJdtPVjZFG_OA-38">
           <mxGeometry relative="1" as="geometry">
@@ -168,8 +156,43 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Oe97w0vUJdtPVjZFG_OA-87" value="病事假计算、工资计算等" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Oe97w0vUJdtPVjZFG_OA-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Oe97w0vUJdtPVjZFG_OA-87" target="Oe97w0vUJdtPVjZFG_OA-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Oe97w0vUJdtPVjZFG_OA-87" value="病事假计算、税前工资计算等" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="200" y="820" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Oe97w0vUJdtPVjZFG_OA-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Oe97w0vUJdtPVjZFG_OA-93" target="Oe97w0vUJdtPVjZFG_OA-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Oe97w0vUJdtPVjZFG_OA-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Oe97w0vUJdtPVjZFG_OA-93" target="Oe97w0vUJdtPVjZFG_OA-98">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="1170" />
+              <mxPoint x="380" y="1170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oe97w0vUJdtPVjZFG_OA-93" value="月份判断" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="980" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Oe97w0vUJdtPVjZFG_OA-95" value="个税计算" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="980" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Oe97w0vUJdtPVjZFG_OA-97" value="大于等于&amp;nbsp;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 15px ; background-color: rgb(255 , 255 , 255)&quot;&gt;START_POINT_MONTH&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1000" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Oe97w0vUJdtPVjZFG_OA-98" value="结束" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Oe97w0vUJdtPVjZFG_OA-100" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Oe97w0vUJdtPVjZFG_OA-95" target="Oe97w0vUJdtPVjZFG_OA-98">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="970" as="sourcePoint" />
+            <mxPoint x="570" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oe97w0vUJdtPVjZFG_OA-101" value="小于&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 15px ; background-color: rgb(255 , 255 , 255)&quot;&gt;START_POINT_MONTH&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="1090" width="190" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
